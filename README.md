@@ -1,11 +1,10 @@
 # Laravel Docker Setup with Redis
 
-This repository contains a Docker setup for a Laravel application using SQLite as the database and Redis for caching.
+This repository contains a Laravel application using SQLite as the database.
 
 ## Prerequisites
 
--   Docker
--   Docker Compose
+-   PHP 8.3
 
 ## Getting Started
 
@@ -17,26 +16,22 @@ This repository contains a Docker setup for a Laravel application using SQLite a
 
     ```
 
-2. **Build and Run the Docker Containers**
+2. **Installation**
 
     ```bash
-    docker-compose up --build
+    composer install
+    cp .env.example .env
+    php artisan migrate
 
     ```
 
-3. **Stop and Remove Containers**
+3. **Run the application**
 
     ```bash
-    docker-compose down
+    php artisan serve
 
     ```
 
-4. **Rebuild Containers**
-
-    ```bash
-    docker-compose build
-    ```
-
-5. **Access the Application**
+4. **Access the Application**
 
 -   Open your web browser and go to http://localhost:8000 to see the application running.
