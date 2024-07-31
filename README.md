@@ -12,7 +12,7 @@ This repository contains a Laravel application using SQLite as the database.
 
     ```bash
     git clone https://github.com/shamamit11/trainmonitor.git
-    cd your-app
+    cd trainmonitor
 
     ```
 
