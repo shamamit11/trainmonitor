@@ -11,7 +11,7 @@ This repository contains a Laravel application using SQLite as the database.
 1. **Clone the Repository**
 
     ```bash
-    git clone https://github.com/your-repo/your-app.git
+    git clone https://github.com/shamamit11/trainmonitor.git
     cd your-app
 
     ```
