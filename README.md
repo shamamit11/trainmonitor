@@ -1,4 +1,4 @@
-# Laravel Docker Setup with Redis
+# Train Monitor Laravel Application
 
 This repository contains a Laravel application using SQLite as the database.
 
